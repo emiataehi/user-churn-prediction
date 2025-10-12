@@ -249,7 +249,7 @@ Through this project, I demonstrated:
 👤 Author
 **IGEIN EMIATAEHI HOPE**
 
-- LinkedIn: [linkedin.com/in/emi-igein-b024-8147](https://www.linkedin.com/in/emi-igein-b024-8147)
+- LinkedIn: [My LinkedIn](https://www.linkedin.com/in/emi-igein-b024-8147)
 - GitHub: [emiataehi](https://github.com/emiataehi)
 - Email: emi.igein@gmail.com
 
@@ -269,7 +269,8 @@ Inspired by real-world telecom industry challenges
 Questions or suggestions? Feel free to reach out!
 
 - Open an issue in this repository
-- Connect with me on [LinkedIn](https://www.linkedin.com/in/emi-igein-b024-8147)
+- Connect with me on [My LinkedIn](https://www.linkedin.com/in/emi-igein-b024-8147)
+
 - Email: emi.igein@gmail.com
 
 ⭐ If you found this project helpful, please consider giving it a star!

@@ -152,7 +152,7 @@ Churn results from **combinations** of risk factors:
 
 ### Clone the repository
 
-bash git clonehttps://github.com/emiataehi/user-churn-prediction.git
+bash git clone [github](https://github.com/emiataehi/user-churn-prediction.git)
 cd user-churn-prediction
 
 
@@ -161,7 +161,7 @@ cd user-churn-prediction
 **Clone the repository**
 
 
-git clone https://github.com/emiataehi/user-churn-prediction.git
+git clone [github](https://github.com/emiataehi/user-churn-prediction.git)
 cd user-churn-prediction
 
 **Install dependencies**

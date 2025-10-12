@@ -150,15 +150,7 @@ Churn results from **combinations** of risk factors:
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-```bash
-Python 3.11+
-pip
-Installation
-
-Clone the repository
+### Clone the repository
 
 bashgit clone https://github.com/[your-username]/user-churn-prediction.git
 cd user-churn-prediction
@@ -180,60 +172,61 @@ bashjupyter notebook notebooks/01_exploratory_data_analysis.ipynb
 
 📈 Project Roadmap
 
- Phase 1: Exploratory Data Analysis
 
- Data loading and quality assessment
- Univariate and bivariate analysis
- Customer segmentation analysis
- Business insights and recommendations
+**Phase 1: Exploratory Data Analysis**
 
-
- Phase 2: Feature Engineering (Coming Soon)
-
- Handle categorical variables
- Create interaction features
- Feature scaling and transformation
+- Data loading and quality assessment
+- Univariate and bivariate analysis
+- Customer segmentation analysis
+- Business insights and recommendations
 
 
- Phase 3: Predictive Modeling (Coming Soon)
+**Phase 2: Feature Engineering (Coming Soon)**
 
- Train/test split
- Model training (Logistic Regression, Random Forest, XGBoost)
- Model evaluation and comparison
- Feature importance analysis
-
-
- Phase 4: Deployment & Monitoring (Coming Soon)
-
- Model deployment strategy
- Real-time churn prediction system
- Monitoring dashboard
+- Handle categorical variables
+- Create interaction features
+- Feature scaling and transformation
 
 
+**Phase 3: Predictive Modeling (Coming Soon)**
+
+- Train/test split
+- Model training (Logistic Regression, Random Forest, XGBoost)
+- Model evaluation and comparison
+- Feature importance analysis
 
 
-💼 Business Impact
-Problem Quantified
+****Phase 4: Deployment & Monitoring (Coming Soon)**
+
+- Model deployment strategy
+- Real-time churn prediction system
+- Monitoring dashboard
+
+
+
+
+## 💼 Business Impact
+**Problem Quantified**
 
 1,869 customers churning annually
 Average customer value: $65/month
 Total annual revenue at risk: $1,457,580
 
-Solution Proposed
+**Solution Proposed**
 Targeted retention strategies focusing on:
 
 Contract conversions (month-to-month → annual)
 Payment method improvements (e-check → autopay)
 First-year customer engagement
 
-Expected Outcomes
+**Expected Outcomes**
 
 Reduce overall churn from 26.54% → 18% within 12 months
 Save 1,597 customers annually
 ROI: 144% in Year 1, increasing thereafter
 
 
-📝 Key Learnings
+## 📝 Key Learnings
 Through this project, I demonstrated:
 
 ✅ Business Acumen: Translated data insights into actionable business strategies
@@ -270,3 +263,13 @@ Questions or suggestions? Feel free to reach out!
 - Email: emi.igein@gmail.com
 
 ⭐ If you found this project helpful, please consider giving it a star!
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Python 3.11+
+pip
+Installation
+

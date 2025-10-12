@@ -152,7 +152,7 @@ Churn results from **combinations** of risk factors:
 
 ### Clone the repository
 
-bash git clone https://github.com/[your-username]/user-churn-prediction.git
+bash git clonehttps://github.com/emiataehi/user-churn-prediction.git
 cd user-churn-prediction
 
 
@@ -161,7 +161,7 @@ cd user-churn-prediction
 **Clone the repository**
 
 
-git clone https://github.com/[your-username]/user-churn-prediction.git
+git clone https://github.com/emiataehi/user-churn-prediction.git
 cd user-churn-prediction
 
 **Install dependencies**
@@ -249,7 +249,7 @@ Through this project, I demonstrated:
 👤 Author
 **IGEIN EMIATAEHI HOPE**
 
-- LinkedIn: [My LinkedIn](https://www.linkedin.com/in/emi-igein-b024-8147)
+- LinkedIn: [My LinkedIn](https://www.linkedin.com/in/emi-igein-b024a8147/)
 - GitHub: [emiataehi](https://github.com/emiataehi)
 - Email: emi.igein@gmail.com
 
@@ -269,15 +269,11 @@ Inspired by real-world telecom industry challenges
 Questions or suggestions? Feel free to reach out!
 
 - Open an issue in this repository
-- Connect with me on [My LinkedIn](https://www.linkedin.com/in/emi-igein-b024-8147)
-
+- Connect with me on [My LinkedIn](https://www.linkedin.com/in/emi-igein-b024a8147/)
 - Email: emi.igein@gmail.com
 
 ⭐ If you found this project helpful, please consider giving it a star!
 
 
-## 🚀 Getting Started
-
-### Prerequisites
 
 

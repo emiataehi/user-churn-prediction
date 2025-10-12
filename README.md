@@ -152,26 +152,36 @@ Churn results from **combinations** of risk factors:
 
 ### Clone the repository
 
-bashgit clone https://github.com/[your-username]/user-churn-prediction.git
+bash git clone https://github.com/[your-username]/user-churn-prediction.git
 cd user-churn-prediction
 
-Install dependencies
 
-bashpip install -r requirements.txt
+### Install 
 
-Download the dataset
+**Clone the repository**
 
+
+git clone https://github.com/[your-username]/user-churn-prediction.git
+cd user-churn-prediction
+
+**Install dependencies**
+
+bash pip install -r requirements.txt
+
+
+**Download the dataset**
 
 Download from Kaggle
 Place Telco-Customer-Churn.csv in data/raw/ folder
 
 
-Run the analysis
+**Run the analysis**
 
 bashjupyter notebook notebooks/01_exploratory_data_analysis.ipynb
 
-📈 Project Roadmap
+---
 
+## 📈 Project Roadmap
 
 **Phase 1: Exploratory Data Analysis**
 
@@ -269,7 +279,4 @@ Questions or suggestions? Feel free to reach out!
 
 ### Prerequisites
 
-Python 3.11+
-pip
-Installation
 

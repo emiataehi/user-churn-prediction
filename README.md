@@ -191,7 +191,7 @@ bashjupyter notebook notebooks/01_exploratory_data_analysis.ipynb
 - Business insights and recommendations
 
 
-**Phase 2: Feature Engineering (Coming Soon)**
+**Phase 2: Feature Engineering**
 
 - Handle categorical variables
 - Create interaction features
@@ -273,6 +273,7 @@ Questions or suggestions? Feel free to reach out!
 - Email: emi.igein@gmail.com
 
 ⭐ If you found this project helpful, please consider giving it a star!
+
 
 
 

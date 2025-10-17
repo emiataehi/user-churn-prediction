@@ -275,16 +275,34 @@ ROI: 144% in Year 1, increasing thereafter
 **ROI:** Implementing this model pays for itself in the first month.
 
 
-## 📝 Key Learnings
-Through this project, I demonstrated:
+## 📝 Key Learnings & Skills Demonstrated
 
-✅ Business Acumen: Translated data insights into actionable business strategies
-✅ Data Analysis: Conducted comprehensive EDA to identify patterns and relationships
-✅ Statistical Thinking: Evaluated factor significance and interaction effects
-✅ Communication: Presented technical findings in business-friendly language
-✅ Problem Solving: Identified root causes, not just symptoms
-✅ Strategic Planning: Prioritized recommendations by impact and feasibility
+Through this end-to-end project, I demonstrated:
 
+### Technical Skills
+- ✅ **Python Programming:** Pandas, NumPy, scikit-learn, matplotlib, seaborn
+- ✅ **Data Cleaning:** Handled missing values, data type conversions, outlier detection
+- ✅ **Feature Engineering:** Encoded 18 categorical variables, scaled features, created 26 ML-ready features
+- ✅ **Machine Learning:** Built and compared classification models (Logistic Regression, Random Forest)
+- ✅ **Model Evaluation:** Accuracy, precision, recall, F1-score, confusion matrix analysis
+- ✅ **Data Visualization:** Created 5+ professional visualizations to communicate insights
+
+### Analytical Skills
+- ✅ **Exploratory Data Analysis:** Analyzed 8 customer factors, identified patterns and correlations
+- ✅ **Statistical Thinking:** Evaluated factor significance and interaction effects
+- ✅ **Feature Importance:** Identified top predictive features matching business insights
+- ✅ **Problem Solving:** Identified root causes of churn, not just symptoms
+
+### Business Skills
+- ✅ **Business Acumen:** Translated data insights into $1.26M in actionable strategies
+- ✅ **ROI Analysis:** Quantified financial impact of recommendations
+- ✅ **Communication:** Presented technical findings in business-friendly language
+- ✅ **Strategic Planning:** Prioritized recommendations by impact and feasibility
+
+### Project Management
+- ✅ **End-to-End Workflow:** Completed full data science pipeline from raw data to deployment recommendations
+- ✅ **Documentation:** Professional README, clear code comments, reproducible analysis
+- ✅ **Version Control:** Organized project structure on GitHub
 
 
 👤 Author
@@ -314,6 +332,7 @@ Questions or suggestions? Feel free to reach out!
 - Email: emi.igein@gmail.com
 
 ⭐ If you found this project helpful, please consider giving it a star!
+
 
 
 

@@ -22,21 +22,28 @@ Identified retention strategies with potential to save **$1.1M annually** by tar
 ---
 
 ## 📁 Project Structure
+```
 user-churn-prediction/
 │
 ├── data/
 │   ├── raw/                          # Original dataset
-│   └── processed/                    # Cleaned data (future)
+│   │   └── Telco-Customer-Churn.csv
+│   └── processed/                    # Processed data for ML
+│       ├── X_train.csv
+│       ├── X_test.csv
+│       ├── y_train.csv
+│       └── y_test.csv
 │
 ├── notebooks/
-│   └── 01_exploratory_data_analysis.ipynb    # Main EDA notebook
+│   ├── 01_exploratory_data_analysis.ipynb    # EDA with visualizations
+│   ├── 02_feature_engineering.ipynb          # Data preprocessing
+│   └── 03_predictive_modeling.ipynb          # ML models & evaluation
 │
 ├── results/                          # Visualizations and outputs (future)
 │
 ├── requirements.txt                  # Python dependencies
 └── README.md                         # Project documentation
-
----
+```
 
 ## 🔍 Key Findings
 
@@ -332,6 +339,7 @@ Questions or suggestions? Feel free to reach out!
 - Email: emi.igein@gmail.com
 
 ⭐ If you found this project helpful, please consider giving it a star!
+
 
 
 

@@ -94,6 +94,37 @@ Churn results from **combinations** of risk factors:
 
 ---
 
+## 🤖 Machine Learning Results
+
+### Model Performance
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|----------|-----------|--------|----------|
+| **Logistic Regression** | **80.4%** | **65.4%** | **55.6%** | **60.1%** |
+| Random Forest | 78.9% | 62.7% | 50.3% | 55.8% |
+
+**Winner:** Logistic Regression outperformed Random Forest on all metrics.
+
+### Key Insights from Modeling
+
+**Top 5 Most Important Features:**
+1. **TotalCharges** (18.6%) - Lifetime customer value
+2. **MonthlyCharges** (17.3%) - Monthly payment amount  
+3. **Tenure** (15.2%) - Customer age/loyalty
+4. **Contract_Month-to-month** (6.3%) - Contract flexibility
+5. **InternetService_Fiber optic** (3.5%) - Service type
+
+**Model validates EDA findings:** The features we identified in exploratory analysis as most important for churn (contract type, tenure, charges) are also what the ML model considers most predictive.
+
+### Confusion Matrix Results
+- **Correctly identified 925/1035 customers who stayed** (89% accuracy on retention)
+- **Correctly identified 208/374 customers who churned** (56% catch rate)
+- **166 churners missed** (opportunity for model improvement)
+
+### Business Value
+The model can identify 56% of at-risk customers before they churn, enabling proactive retention efforts worth an estimated **$13,520/month** in saveable revenue.
+
+
 ## 🎯 Business Recommendations
 
 ### Priority 1: Contract Strategy (Highest Impact)
@@ -183,35 +214,26 @@ bashjupyter notebook notebooks/01_exploratory_data_analysis.ipynb
 
 ## 📈 Project Roadmap
 
-**Phase 1: Exploratory Data Analysis**
+- [x] **Phase 1:** Exploratory Data Analysis ✅ COMPLETE
+  - [x] Data loading and quality assessment
+  - [x] Univariate and bivariate analysis
+  - [x] Customer segmentation analysis
+  - [x] Business insights and recommendations
+  - [x] 5 professional visualizations
 
-- Data loading and quality assessment
-- Univariate and bivariate analysis
-- Customer segmentation analysis
-- Business insights and recommendations
+- [x] **Phase 2:** Feature Engineering ✅ COMPLETE
+  - [x] Handle categorical variables (18 columns encoded)
+  - [x] Fix data types (TotalCharges conversion)
+  - [x] Feature scaling (StandardScaler)
+  - [x] Train/test split (80/20)
+  - [x] Created 26 ML-ready features
 
-
-**Phase 2: Feature Engineering**
-
-- Handle categorical variables
-- Create interaction features
-- Feature scaling and transformation
-
-
-**Phase 3: Predictive Modeling (Coming Soon)**
-
-- Train/test split
-- Model training (Logistic Regression, Random Forest, XGBoost)
-- Model evaluation and comparison
-- Feature importance analysis
-
-
-****Phase 4: Deployment & Monitoring (Coming Soon)**
-
-- Model deployment strategy
-- Real-time churn prediction system
-- Monitoring dashboard
-
+- [x] **Phase 3:** Predictive Modeling ✅ COMPLETE
+  - [x] Train/test split
+  - [x] Model training (Logistic Regression, Random Forest)
+  - [x] Model evaluation and comparison
+  - [x] Feature importance analysis
+  - [x] Performance visualization
 
 
 
@@ -235,6 +257,23 @@ Reduce overall churn from 26.54% → 18% within 12 months
 Save 1,597 customers annually
 ROI: 144% in Year 1, increasing thereafter
 
+### Model Deployment Value
+
+**Current State:**
+- Reactive approach: Only know customers churned after they leave
+- No early warning system
+- Miss opportunities to save customers
+
+**With ML Model:**
+- **Proactive approach:** Score all customers monthly for churn risk
+- **Target top 20% highest risk** (can save ~56% of them)
+- **Estimated impact:** 
+  - Save 208 of 374 monthly churners
+  - Revenue saved: $162,240 annually (208 × $65 × 12)
+  - Combined with contract/payment strategies: **$1.26M total annual impact**
+
+**ROI:** Implementing this model pays for itself in the first month.
+
 
 ## 📝 Key Learnings
 Through this project, I demonstrated:
@@ -245,6 +284,8 @@ Through this project, I demonstrated:
 ✅ Communication: Presented technical findings in business-friendly language
 ✅ Problem Solving: Identified root causes, not just symptoms
 ✅ Strategic Planning: Prioritized recommendations by impact and feasibility
+
+
 
 👤 Author
 **IGEIN EMIATAEHI HOPE**
@@ -273,6 +314,7 @@ Questions or suggestions? Feel free to reach out!
 - Email: emi.igein@gmail.com
 
 ⭐ If you found this project helpful, please consider giving it a star!
+
 
 
 
